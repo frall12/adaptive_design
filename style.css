@@ -13,7 +13,7 @@ body {
     margin: 50px auto 110px auto;
     text-align: center;
     border-radius: 18px;
-    font-size: 2.5vh;
+    font-size: 24px;
     padding: 36px 0;
     background-color: #FFFFFF;
     color: #170F49;
@@ -27,14 +27,14 @@ body {
 }
 
 .form_title h2 {
-    font-size: 3vh;
+    font-size: 34px;
     color: #170F49;
     margin: 0;
 }
 
 .form_title p {
     font-weight: 500;
-    font-size: 2vh;
+    font-size: 18px;
     color: #6F6C90;
     margin-top: 12px;
 }
@@ -59,7 +59,7 @@ body {
 
 .form_form h2 {
     font-weight: 700;
-    font-size: 3vh;
+    font-size: 24px;
     color: #170F49;
     padding: 24px 0 0 0;
     margin: 0;
@@ -67,7 +67,7 @@ body {
 
 .form_form p {
     font-weight: 500;
-    font-size: 2vh;
+    font-size: 18px;
     color: #170F49;
     padding: 6px 0 0 0;
     margin: 0;
@@ -84,14 +84,14 @@ hr {
 
 .inputs label p {
     font-weight: 500;
-    font-size: 2.5vh;
+    font-size: 18px;
     color: #170F49;
     padding: 0;
 }
 
 .inputs label input {
     font-weight: 400;
-    font-size: 2.5vh;
+    font-size: 18px;
     color: #6F6C90;
     height: 66px;
     max-width: 284px;
@@ -110,7 +110,7 @@ hr {
     display: block;
     margin: 48px auto 244px auto;
     font-weight: 700;
-    font-size: 3vh;
+    font-size: 24px;
     color: #FFFFFF;
     padding: 20px 40px;
     border-radius: 56px;
