@@ -6,28 +6,20 @@ body {
     width: 1440px;
     height: auto;
     font-family: "DM Sans", sans-serif;
+    background-color: #f6ffb9;
 }
 
-/* .circ {
-    width: 787px;
-    height: 787px;
-    flex-shrink: 0;
-    fill: rgba(253, 6, 6, 0.79);
-    backdrop-filter: blur(70px);
-} */
-
 .header {
-    margin: 50px 99px 110px 99px;
+    margin: 50px auto 110px auto;
     text-align: center;
     border-radius: 18px;
-    font-weight: 700;
-    font-size: 24px;
-    padding: 36px 0 36px 0;
+    font-size: 2.5vh;
+    padding: 36px 0;
     background-color: #FFFFFF;
     color: #170F49;
     box-shadow: rgb(74, 58, 255, 3%) 0px 3px 14px;
 
-    max-width: 1242px;
+    max-width: 80%;
 }
 
 .form_title {
@@ -35,15 +27,14 @@ body {
 }
 
 .form_title h2 {
-    font-weight: 700;
-    font-size: 34px;
+    font-size: 3vh;
     color: #170F49;
     margin: 0;
 }
 
 .form_title p {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 2vh;
     color: #6F6C90;
     margin-top: 12px;
 }
@@ -57,10 +48,8 @@ body {
     margin: 0 auto;
     padding: 24px 64px;
 
-
-    max-width: 700px;
-    width: 100%;
-    max-height: 1088px;
+    max-width: 60%;
+    max-height: auto;
     box-shadow: rgb(8, 15, 52, 6%) 0 5px 16px;
 }
 
@@ -70,7 +59,7 @@ body {
 
 .form_form h2 {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 3vh;
     color: #170F49;
     padding: 24px 0 0 0;
     margin: 0;
@@ -78,7 +67,7 @@ body {
 
 .form_form p {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 2vh;
     color: #170F49;
     padding: 6px 0 0 0;
     margin: 0;
@@ -95,14 +84,14 @@ hr {
 
 .inputs label p {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 2.5vh;
     color: #170F49;
     padding: 0;
 }
 
 .inputs label input {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 2.5vh;
     color: #6F6C90;
     height: 66px;
     max-width: 284px;
@@ -119,9 +108,9 @@ hr {
 
 .next_button {
     display: block;
-    margin: 48px auto;
+    margin: 48px auto 244px auto;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 3vh;
     color: #FFFFFF;
     padding: 20px 40px;
     border-radius: 56px;
@@ -134,4 +123,80 @@ hr {
 .next_button:hover {
     transform: scale(1.1);
     transition: 1s;
+}
+
+@media (max-width: 480px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        max-width: 400px;
+    }
+
+    .header {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 12px;
+        padding: 16px 0;
+        max-width: 80%;
+    }
+
+    .form_title h2 {
+        font-size: 28px;
+    }
+
+    .form_title p {
+        font-weight: 500;
+        font-size: 12px;
+        margin-top: 6px;
+    }
+
+    .form_form {
+        border-radius: 18px;
+        padding: 12px 32px;
+
+        max-width: 85%;
+    }
+
+    .form_form h2 {
+        font-size: 18px;
+        padding: 12px 0 0 0;
+    }
+
+    .form_form p {
+        font-size: 12px;
+        padding: 3px 0 0 0;
+    }
+
+    hr {
+        margin-top: 8px;
+        margin-left: -9px;
+        margin-right: 29px;
+        margin-bottom: 24px;
+    }
+
+    .inputs label p {
+        font-size: 12px;
+    }
+
+    .inputs label input {
+        font-size: 12px;
+        height: 33px;
+        max-width: 142px;
+
+        margin-top: 9px;
+        margin-bottom: 24px;
+        padding: 0 0 0 10px;
+        border-radius: 23px;
+    }
+
+    .next_button {
+        display: block;
+        margin: 24px auto 122px auto;
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 56px;
+    }
+
 }
