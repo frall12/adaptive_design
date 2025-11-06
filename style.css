@@ -6,15 +6,15 @@ body {
     width: 1440px;
     height: auto;
     font-family: "DM Sans", sans-serif;
-    position: relative;
 }
 
-.circles {
-    color: #161616;
+/* .circ {
     width: 787px;
     height: 787px;
-    position: absolute;
-}
+    flex-shrink: 0;
+    fill: rgba(253, 6, 6, 0.79);
+    backdrop-filter: blur(70px);
+} */
 
 .header {
     margin: 50px 99px 110px 99px;
@@ -25,13 +25,13 @@ body {
     padding: 36px 0 36px 0;
     background-color: #FFFFFF;
     color: #170F49;
-    box-shadow: #4A3AFF 0px 3px 14px;
+    box-shadow: rgb(74, 58, 255, 3%) 0px 3px 14px;
 
     max-width: 1242px;
 }
 
 .form_title {
-    align-items: center;
+    text-align: center;
 }
 
 .form_title h2 {
@@ -45,22 +45,27 @@ body {
     font-weight: 500;
     font-size: 18px;
     color: #6F6C90;
-    margin: 12 0 0 0;
-
-    max-width: 517px;
-    max-height: 70px;
+    margin-top: 12px;
 }
 
 
 .form_form {
-    background-color: #ff9a9a;
+    background-color: #FFFFFF;
     border-color: #EFF0F6;
     border: 1px;
     border-radius: 34px;
+    margin: 0 auto;
+    padding: 24px 64px;
 
 
     max-width: 700px;
+    width: 100%;
     max-height: 1088px;
+    box-shadow: rgb(8, 15, 52, 6%) 0 5px 16px;
+}
+
+.form_form h2 p {
+    text-align: left;
 }
 
 .form_form h2 {
@@ -80,7 +85,12 @@ body {
 }
 
 hr {
-    margin: 16px 0 48px 0;
+    margin-top: 16px;
+    margin-left: -18px;
+    margin-right: 57px;
+    margin-bottom: 48px;
+    border: none;
+    border-top: 1px solid #d9d9d9;
 }
 
 .inputs label p {
@@ -94,16 +104,22 @@ hr {
     font-weight: 400;
     font-size: 18px;
     color: #6F6C90;
+    height: 66px;
+    max-width: 284px;
+    width: 100%;
+
     margin-top: 18px;
     margin-bottom: 48px;
     padding: 0 0 0 20px;
     border-radius: 46px;
     border: 1px;
-    box-shadow: 0 2px 6px 0 #131242;
+    border-color: #EFF0F6;
+    box-shadow: 0 2px 6px 0 rgb(19, 18, 66, 7%);
 }
 
 .next_button {
-    margin: 48px 0 0 0;
+    display: block;
+    margin: 48px auto;
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
@@ -111,5 +127,11 @@ hr {
     border-radius: 56px;
     border: 0;
     background: linear-gradient(#9E96F2, #EC31F0);
-    box-shadow: 0 3px 12px #4A3AFF;
+    box-shadow: 0 3px 12px rgb(74, 58, 255, 18%);
+    font-family: "Poppins", sans-serif;
+}
+
+.next_button:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }
